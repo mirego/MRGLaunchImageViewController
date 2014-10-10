@@ -128,6 +128,14 @@
     return path;
 }
 
++ (CGSize)portraitSizeForSize:(CGSize)size {
+    if (size.width <= size.height) {
+        return size;
+    } else {
+        return CGSizeMake(size.height, size.width);
+    }
+}
+
 + (NSString *)launchImagePath {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
     BOOL isPad = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad;
@@ -145,7 +153,7 @@
         }
         
         // Filter down the array to just the matching elements
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"UILaunchImageMinimumOSVersion <= %@ AND UILaunchImageOrientation = %@ AND UILaunchImageSize = %@", systemVersion, orientationString, NSStringFromCGSize(mainWindow.bounds.size) ];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"UILaunchImageMinimumOSVersion <= %@ AND UILaunchImageOrientation = %@ AND (UILaunchImageSize = %@ OR UILaunchImageSize = %@)", systemVersion, orientationString, NSStringFromCGSize(mainWindow.bounds.size), NSStringFromCGSize([self portraitSizeForSize:mainWindow.bounds.size])];
         launchImages = [launchImages filteredArrayUsingPredicate:predicate];
         
         NSString *imageName = [[launchImages lastObject] objectForKey:@"UILaunchImageName"];
