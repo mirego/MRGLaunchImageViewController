@@ -184,11 +184,13 @@
     }
     
     if (!isPad) {
-        if (([UIScreen mainScreen].bounds.size.height == 568.0f)) {
-            return [self launchImagePathForName:[NSString stringWithFormat:@"%@-568h%@", baseName, scale] device:@"~iphone" type:baseExt];
-        } else {
-            return [self launchImagePathForName:[NSString stringWithFormat:@"%@%@", baseName, scale] device:@"~iphone" type:baseExt];
+        NSString *imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@-%.0fh%@", baseName, [UIScreen mainScreen].bounds.size.height, scale] device:@"~iphone" type:baseExt];
+        
+        if (imagePath == nil) {
+            imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@%@", baseName, scale] device:@"~iphone" type:baseExt];
         }
+        
+        return imagePath;
         
     } else {
         NSString *imagePath = nil;
