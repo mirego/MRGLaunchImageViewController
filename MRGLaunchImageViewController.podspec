@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MRGLaunchImageViewController"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A view controller that displays the launch image to ease your transitions at app launch."
   s.homepage         = "https://github.com/Mirego/MRGLaunchImageViewController"
   s.license          = 'BSD 3-Clause'

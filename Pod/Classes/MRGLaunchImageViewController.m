@@ -195,6 +195,9 @@
     } else {
         NSString *imagePath = nil;
         switch (orientation) {
+#ifdef __IPHONE_8_0
+            case UIInterfaceOrientationUnknown:
+#endif
             case UIInterfaceOrientationPortrait:
                 imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@-Portrait%@", baseName, scale] device:@"~ipad" type:baseExt];
                 break;
