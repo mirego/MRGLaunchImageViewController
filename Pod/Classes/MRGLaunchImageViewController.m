@@ -36,7 +36,11 @@
 
 @implementation MRGLaunchImageViewController {
     BOOL mrg_shouldAutorotate;
+#ifdef __IPHONE_9_0
+    UIInterfaceOrientationMask mrg_supportedInterfaceOrientations;
+#else
     NSUInteger mrg_supportedInterfaceOrientations;
+#endif
     BOOL mrg_prefersStatusBarHidden;
     UIStatusBarStyle mrg_preferredStatusBarStyle;
     UIStatusBarAnimation mrg_preferredStatusBarUpdateAnimation;
@@ -79,11 +83,19 @@
     mrg_shouldAutorotate = shouldAutorotate;
 }
 
+#ifdef __IPHONE_9_0
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+#else
 - (NSUInteger)supportedInterfaceOrientations {
+#endif
     return mrg_supportedInterfaceOrientations;
 }
 
+#ifdef __IPHONE_9_0
+- (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations {
+#else
 - (void)setSupportedInterfaceOrientations:(NSUInteger)supportedInterfaceOrientations {
+#endif
     mrg_supportedInterfaceOrientations = supportedInterfaceOrientations;
 }
 
