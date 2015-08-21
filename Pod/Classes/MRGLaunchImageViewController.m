@@ -30,6 +30,7 @@
 
 @interface MRGLaunchImageViewController ()
 
+@property (nonatomic, weak) UIViewController *launchStoryboardViewController;
 @property (nonatomic, weak) UIImageView *launchImageView;
 @property (nonatomic) NSString *launchImagePath;
 @end
@@ -60,9 +61,30 @@
 }
 
 - (void)loadView {
-    UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    launchImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    self.view = self.launchImageView = launchImageView;
+    NSString *launchStoryboardName = [[NSBundle mainBundle] infoDictionary][@"UILaunchStoryboardName"];
+    if ([launchStoryboardName length] > 0) {
+        UIStoryboard *launchStoryboard = [UIStoryboard storyboardWithName:launchStoryboardName bundle:nil];
+        self.launchStoryboardViewController = [launchStoryboard instantiateInitialViewController];
+        if (self.launchStoryboardViewController) {
+            self.view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+            self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+            
+            [self.launchStoryboardViewController beginAppearanceTransition:YES animated:NO];
+            [self addChildViewController:self.launchStoryboardViewController];
+            UIView *launchStoryboardViewControllerView = self.launchStoryboardViewController.view;
+            launchStoryboardViewControllerView.frame = self.view.bounds;
+            launchStoryboardViewControllerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+            [self.view addSubview:launchStoryboardViewControllerView];
+            [self.launchStoryboardViewController didMoveToParentViewController:self];
+            [self.launchStoryboardViewController endAppearanceTransition];
+        }
+    }
+    
+    if (self.launchStoryboardViewController == nil) {
+        UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+        launchImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        self.view = self.launchImageView = launchImageView;
+    }
 }
 
 - (void)viewDidLoad {
@@ -124,10 +146,12 @@
 }
 
 - (void)updateLaunchImageView {
-    NSString *launchImagePath = [[self class] launchImagePath];
-    if ([self.launchImagePath isEqualToString:launchImagePath] == NO) {
-        self.launchImagePath = launchImagePath;
-        self.launchImageView.image = [UIImage imageWithContentsOfFile:self.launchImagePath];
+    if (self.launchImageView) {
+        NSString *launchImagePath = [[self class] launchImagePath];
+        if ([self.launchImagePath isEqualToString:launchImagePath] == NO) {
+            self.launchImagePath = launchImagePath;
+            self.launchImageView.image = [UIImage imageWithContentsOfFile:self.launchImagePath];
+        }
     }
 }
 
