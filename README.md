@@ -1,6 +1,6 @@
 # MRGLaunchImageViewController
 
-[![CI Status](http://img.shields.io/travis/Mirego/MRGLaunchImageViewController.svg?style=flat)](https://travis-ci.org/Mirego/MRGLaunchImageViewController)
+[![CI Status](http://img.shields.io/travis/mirego/MRGLaunchImageViewController.svg?style=flat)](https://travis-ci.org/Mirego/MRGLaunchImageViewController)
 [![Version](https://img.shields.io/cocoapods/v/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
 [![License](https://img.shields.io/cocoapods/l/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
 [![Platform](https://img.shields.io/cocoapods/p/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
