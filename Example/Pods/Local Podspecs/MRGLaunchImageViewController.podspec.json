@@ -1,0 +1,20 @@
+{
+  "name": "MRGLaunchImageViewController",
+  "version": "0.1.4",
+  "summary": "A view controller that displays the launch image to ease your transitions at app launch.",
+  "homepage": "https://github.com/Mirego/MRGLaunchImageViewController",
+  "license": "BSD 3-Clause",
+  "authors": {
+    "Mirego, Inc.": "info@mirego.com"
+  },
+  "source": {
+    "git": "https://github.com/Mirego/MRGLaunchImageViewController.git",
+    "tag": "0.1.4"
+  },
+  "social_media_url": "https://twitter.com/Mirego",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes"
+}
