@@ -66,7 +66,7 @@
         UIStoryboard *launchStoryboard = [UIStoryboard storyboardWithName:launchStoryboardName bundle:nil];
         self.launchStoryboardViewController = [launchStoryboard instantiateInitialViewController];
         if (self.launchStoryboardViewController) {
-            self.view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+            self.view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
             self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
             
             [self.launchStoryboardViewController beginAppearanceTransition:YES animated:NO];
@@ -81,7 +81,7 @@
     }
     
     if (self.launchStoryboardViewController == nil) {
-        UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+        UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
         launchImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         self.view = self.launchImageView = launchImageView;
     }

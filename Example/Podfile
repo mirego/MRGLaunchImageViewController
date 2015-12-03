@@ -6,6 +6,4 @@ end
 
 target 'MRGLaunchImageViewController_Tests', :exclusive => true do
   pod "MRGLaunchImageViewController", :path => "../"
-
-  
 end

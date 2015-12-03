@@ -7,115 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADD0A0A2141A8F4EDC496F790153A7C /* Pods-MRGLaunchImageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3F99D99D7130A48CA74A165DB849AE /* Pods-MRGLaunchImageViewController_Example-dummy.m */; };
-		58B749B3CEC57E57AFC269AC14D5A772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B88D473FE778AADE5D53D8B68CA7BA /* Foundation.framework */; };
-		6FFF06C169997E1C3CC15329C17133EB /* MRGLaunchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF65CFB8FF6D86180613BCE25CB969C /* MRGLaunchImageViewController.m */; };
-		82C8B9BC43CA46BAAA7571357D4FBA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B88D473FE778AADE5D53D8B68CA7BA /* Foundation.framework */; };
-		B15EC11E8B9DFEEF456727404901EA85 /* Pods-MRGLaunchImageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 132FB149EA5F2063CE9A91DCA6090452 /* Pods-MRGLaunchImageViewController_Tests-dummy.m */; };
-		C603113A8220F2A69E01E09213DDE91A /* MRGLaunchImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA422CE2CE0EA112DFAF0F74ECF5AD /* MRGLaunchImageViewController-dummy.m */; };
-		E44D63E08BAF58382171E86D37885AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B88D473FE778AADE5D53D8B68CA7BA /* Foundation.framework */; };
-		E73376AB852D491893B677AAA73AC818 /* MRGLaunchImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3782D803477B40F119BBCE57D987D60 /* MRGLaunchImageViewController.h */; };
+		390D42FB37FD01E60EAFABCF4342DA6F /* Pods-MRGLaunchImageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B5C86C85A45E3CB8CBE1EA5CD841D /* Pods-MRGLaunchImageViewController_Example-dummy.m */; };
+		441CF6CE1DB236ECF5CFC3B9DE727210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4C616A85D44EF840FE609B8BEEDABBA4 /* Pods-MRGLaunchImageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C097DD6A9F4865D80C99D9C578DD7E /* Pods-MRGLaunchImageViewController_Tests-dummy.m */; };
+		89CA560A99FEC27101217AACF47F96F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AA97CBB56D8D47194F9C0C3D7BFB713E /* MRGLaunchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E9F133CB37EACB85A49BBA7E42160 /* MRGLaunchImageViewController.m */; };
+		EC3FBE7F5A9060F4CCE196943C5BB320 /* MRGLaunchImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE1AC87DDA5C8FB9E47A3AF3CC769 /* MRGLaunchImageViewController-dummy.m */; };
+		F082DB0A79D490313BC27630F71AD7B8 /* MRGLaunchImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D2C5BE18DFEA6B94F2B74ADD366092 /* MRGLaunchImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1B7834EF6F3314EEB147280A7A2767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		762DE3BD7FD783913090E6370D340EB0 /* PBXContainerItemProxy */ = {
+		351A0DFD7BD52EA38CBA31D41CD7FB0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDFF12405C6EC99B46230F2063D6F6E6;
+			remoteGlobalIDString = 3379F1B050B59C79E1BA11D02347E62D;
 			remoteInfo = MRGLaunchImageViewController;
 		};
-		A12A3BC396588853A920D6E7BB3E6106 /* PBXContainerItemProxy */ = {
+		588A83389E7681DD016F121A7C3395A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDFF12405C6EC99B46230F2063D6F6E6;
+			remoteGlobalIDString = 3379F1B050B59C79E1BA11D02347E62D;
 			remoteInfo = MRGLaunchImageViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07804705DFD139931D1177ED541E3209 /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		132FB149EA5F2063CE9A91DCA6090452 /* Pods-MRGLaunchImageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGLaunchImageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		135929BC13EA42A44630E361B3DB26F0 /* Pods-MRGLaunchImageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		14BCB7F80946412F638505D0D8473146 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2F53948385A4CFED55411FD4F19595AE /* Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54113A1F5DF4B2E3655EE42ABB4744EB /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7AF65CFB8FF6D86180613BCE25CB969C /* MRGLaunchImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRGLaunchImageViewController.m; sourceTree = "<group>"; };
-		95B88D473FE778AADE5D53D8B68CA7BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		974E39BFBD2661D10E6B13456AAFC19F /* Pods-MRGLaunchImageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGLaunchImageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		990C52102631CC5FDA02A241027A7B1D /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BC23B72E51B6EFD88716510E97C818C /* Pods-MRGLaunchImageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		A014DAFBCACB73DE3BCC904BE00E8B7C /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A39272FA2F278F1AFA2888EAA5122847 /* MRGLaunchImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRGLaunchImageViewController.xcconfig; sourceTree = "<group>"; };
-		AAA38B4EE56916FE3B0F9EE2C5FDA257 /* MRGLaunchImageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRGLaunchImageViewController-prefix.pch"; sourceTree = "<group>"; };
-		B2EA422CE2CE0EA112DFAF0F74ECF5AD /* MRGLaunchImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRGLaunchImageViewController-dummy.m"; sourceTree = "<group>"; };
+		006C4411D66731B9F1C419F82252BA00 /* Pods-MRGLaunchImageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		022C2DB36BBFA9D6EF46127E399E23E5 /* libMRGLaunchImageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRGLaunchImageViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FC354A949634B951172D1C3DFB4B4F /* Pods-MRGLaunchImageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		1F6CD88021F381FD21BE9D295DBD96EB /* libPods-MRGLaunchImageViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRGLaunchImageViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2533221A3507CE673A7BF49E9630CB2B /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DE8BB3AB4507E760590D4DB5960E4EF /* MRGLaunchImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRGLaunchImageViewController.xcconfig; sourceTree = "<group>"; };
+		3C5207A19122112D1ABB0E94D6E5F4C0 /* libPods-MRGLaunchImageViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRGLaunchImageViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41727E2AC79FEDF1F3D9CA8E8569915B /* MRGLaunchImageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRGLaunchImageViewController-prefix.pch"; sourceTree = "<group>"; };
+		77334D34508815EE0F6101F68DC11CCC /* Pods-MRGLaunchImageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		797AD14C5CD85543CD66293320C52E63 /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88D2C5BE18DFEA6B94F2B74ADD366092 /* MRGLaunchImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRGLaunchImageViewController.h; sourceTree = "<group>"; };
+		8ED594453BF61E64D0F06E06A585331E /* Pods-MRGLaunchImageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGLaunchImageViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		A1C097DD6A9F4865D80C99D9C578DD7E /* Pods-MRGLaunchImageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGLaunchImageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB7E9F133CB37EACB85A49BBA7E42160 /* MRGLaunchImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRGLaunchImageViewController.m; sourceTree = "<group>"; };
+		B75260C7122E732901BBC74F6F10E981 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C3782D803477B40F119BBCE57D987D60 /* MRGLaunchImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRGLaunchImageViewController.h; sourceTree = "<group>"; };
-		CB7F02E26983AB157FCBF5875AD1D019 /* libPods-MRGLaunchImageViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRGLaunchImageViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F2C114BB0C5FD7313EE80D1807E5B1 /* libPods-MRGLaunchImageViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRGLaunchImageViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF623B20E5F3341A4DECC09E901BEC4B /* libMRGLaunchImageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRGLaunchImageViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30717FFCC01A639DE03AE7E75D22BD5 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB3F99D99D7130A48CA74A165DB849AE /* Pods-MRGLaunchImageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGLaunchImageViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		FF3C8FC67EEEFD526348FB191011E374 /* MRGLaunchImageViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MRGLaunchImageViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		BF194186746CE5DE84A228501954BC99 /* Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C991DF4C670FB20B0EFB1CA616450A29 /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7ED9631A6ADA285410F3ED2B91C636 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGLaunchImageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0CE1AC87DDA5C8FB9E47A3AF3CC769 /* MRGLaunchImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRGLaunchImageViewController-dummy.m"; sourceTree = "<group>"; };
+		E322B3E09CBF70B48E75C8ABE0D2E77A /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F15B5C86C85A45E3CB8CBE1EA5CD841D /* Pods-MRGLaunchImageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGLaunchImageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		F58F650A74663223622DADE7EB2FFA18 /* Pods-MRGLaunchImageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGLaunchImageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52085D7BED300E210473BF9F1F9FB39E /* Frameworks */ = {
+		107FAB6DEA30B1E65F65DEC487E4D800 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44D63E08BAF58382171E86D37885AF3 /* Foundation.framework in Frameworks */,
+				FA1B7834EF6F3314EEB147280A7A2767 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E556D317C242239391549212B2DCF88 /* Frameworks */ = {
+		B9095244C947DEE190AEB9C31A39FA39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C8B9BC43CA46BAAA7571357D4FBA0E /* Foundation.framework in Frameworks */,
+				89CA560A99FEC27101217AACF47F96F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B725E6AC57787CC0B2C2E4112F606EA9 /* Frameworks */ = {
+		FFCFA0418C4E46EA8AD3A156B04FD096 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B749B3CEC57E57AFC269AC14D5A772 /* Foundation.framework in Frameworks */,
+				441CF6CE1DB236ECF5CFC3B9DE727210 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43283BF60E95FF1742EA8B0702675B28 /* MRGLaunchImageViewController */ = {
+		6AB8D6A5179E44EE19365EC08568B8F2 /* Pods-MRGLaunchImageViewController_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B64F8E5FCCAA15DF90711ADAC0A7F914 /* Pod */,
-				4EEB8F5204EAF4A974C265E1DB559A6A /* Support Files */,
+				E322B3E09CBF70B48E75C8ABE0D2E77A /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown */,
+				2533221A3507CE673A7BF49E9630CB2B /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist */,
+				A1C097DD6A9F4865D80C99D9C578DD7E /* Pods-MRGLaunchImageViewController_Tests-dummy.m */,
+				006C4411D66731B9F1C419F82252BA00 /* Pods-MRGLaunchImageViewController_Tests-frameworks.sh */,
+				15FC354A949634B951172D1C3DFB4B4F /* Pods-MRGLaunchImageViewController_Tests-resources.sh */,
+				C991DF4C670FB20B0EFB1CA616450A29 /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */,
+				DE7ED9631A6ADA285410F3ED2B91C636 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */,
 			);
-			name = MRGLaunchImageViewController;
-			path = ../..;
+			name = "Pods-MRGLaunchImageViewController_Tests";
+			path = "Target Support Files/Pods-MRGLaunchImageViewController_Tests";
 			sourceTree = "<group>";
 		};
-		4EEB8F5204EAF4A974C265E1DB559A6A /* Support Files */ = {
+		7AB55B54CB84B2C932ECD0352728F446 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A39272FA2F278F1AFA2888EAA5122847 /* MRGLaunchImageViewController.xcconfig */,
-				FF3C8FC67EEEFD526348FB191011E374 /* MRGLaunchImageViewController-Private.xcconfig */,
-				B2EA422CE2CE0EA112DFAF0F74ECF5AD /* MRGLaunchImageViewController-dummy.m */,
-				AAA38B4EE56916FE3B0F9EE2C5FDA257 /* MRGLaunchImageViewController-prefix.pch */,
+				022C2DB36BBFA9D6EF46127E399E23E5 /* libMRGLaunchImageViewController.a */,
+				3C5207A19122112D1ABB0E94D6E5F4C0 /* libPods-MRGLaunchImageViewController_Example.a */,
+				1F6CD88021F381FD21BE9D295DBD96EB /* libPods-MRGLaunchImageViewController_Tests.a */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MRGLaunchImageViewController";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				95B88D473FE778AADE5D53D8B68CA7BA /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -124,146 +120,135 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				9C102A6C23BE2F54EBB3DD46D26D734E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				F8D02C1F3C2D21996CDF07FF0B341D97 /* Targets Support Files */,
+				7AB55B54CB84B2C932ECD0352728F446 /* Products */,
+				917E51A93E262F4DB17C818FFA723498 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DC39C86CCC6CDD8FC1C8B907283C12A /* Pods-MRGLaunchImageViewController_Tests */ = {
+		8305B3EDC895BD4EFABCA7BD33C777BC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				07804705DFD139931D1177ED541E3209 /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.markdown */,
-				990C52102631CC5FDA02A241027A7B1D /* Pods-MRGLaunchImageViewController_Tests-acknowledgements.plist */,
-				132FB149EA5F2063CE9A91DCA6090452 /* Pods-MRGLaunchImageViewController_Tests-dummy.m */,
-				9BC23B72E51B6EFD88716510E97C818C /* Pods-MRGLaunchImageViewController_Tests-resources.sh */,
-				A014DAFBCACB73DE3BCC904BE00E8B7C /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */,
-				14BCB7F80946412F638505D0D8473146 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */,
+				D34EF12D3FCB446B1E71D2A2F7EA423D /* Classes */,
 			);
-			name = "Pods-MRGLaunchImageViewController_Tests";
-			path = "Target Support Files/Pods-MRGLaunchImageViewController_Tests";
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		917E51A93E262F4DB17C818FFA723498 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6077660B5D1C3DC2A02210C543D8DC /* Pods-MRGLaunchImageViewController_Example */,
+				6AB8D6A5179E44EE19365EC08568B8F2 /* Pods-MRGLaunchImageViewController_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9C102A6C23BE2F54EBB3DD46D26D734E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43283BF60E95FF1742EA8B0702675B28 /* MRGLaunchImageViewController */,
+				FE44F01892D039A890595F620ADF0330 /* MRGLaunchImageViewController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B17D7A435A8D95E3C0B527D6F8BC6D6D /* Pods-MRGLaunchImageViewController_Example */ = {
+		A5EA1BF454EF143BADB3789A5E922A89 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F53948385A4CFED55411FD4F19595AE /* Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown */,
-				974E39BFBD2661D10E6B13456AAFC19F /* Pods-MRGLaunchImageViewController_Example-acknowledgements.plist */,
-				FB3F99D99D7130A48CA74A165DB849AE /* Pods-MRGLaunchImageViewController_Example-dummy.m */,
-				135929BC13EA42A44630E361B3DB26F0 /* Pods-MRGLaunchImageViewController_Example-resources.sh */,
-				54113A1F5DF4B2E3655EE42ABB4744EB /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */,
-				F30717FFCC01A639DE03AE7E75D22BD5 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */,
+				2DE8BB3AB4507E760590D4DB5960E4EF /* MRGLaunchImageViewController.xcconfig */,
+				DF0CE1AC87DDA5C8FB9E47A3AF3CC769 /* MRGLaunchImageViewController-dummy.m */,
+				41727E2AC79FEDF1F3D9CA8E8569915B /* MRGLaunchImageViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRGLaunchImageViewController";
+			sourceTree = "<group>";
+		};
+		AC6077660B5D1C3DC2A02210C543D8DC /* Pods-MRGLaunchImageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BF194186746CE5DE84A228501954BC99 /* Pods-MRGLaunchImageViewController_Example-acknowledgements.markdown */,
+				F58F650A74663223622DADE7EB2FFA18 /* Pods-MRGLaunchImageViewController_Example-acknowledgements.plist */,
+				F15B5C86C85A45E3CB8CBE1EA5CD841D /* Pods-MRGLaunchImageViewController_Example-dummy.m */,
+				77334D34508815EE0F6101F68DC11CCC /* Pods-MRGLaunchImageViewController_Example-frameworks.sh */,
+				8ED594453BF61E64D0F06E06A585331E /* Pods-MRGLaunchImageViewController_Example-resources.sh */,
+				797AD14C5CD85543CD66293320C52E63 /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */,
+				B75260C7122E732901BBC74F6F10E981 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */,
 			);
 			name = "Pods-MRGLaunchImageViewController_Example";
 			path = "Target Support Files/Pods-MRGLaunchImageViewController_Example";
 			sourceTree = "<group>";
 		};
-		B64F8E5FCCAA15DF90711ADAC0A7F914 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DDD1F2527F4FFFBD7CD3F15309C7D87E /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EF623B20E5F3341A4DECC09E901BEC4B /* libMRGLaunchImageViewController.a */,
-				CB7F02E26983AB157FCBF5875AD1D019 /* libPods-MRGLaunchImageViewController_Example.a */,
-				D2F2C114BB0C5FD7313EE80D1807E5B1 /* libPods-MRGLaunchImageViewController_Tests.a */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDD1F2527F4FFFBD7CD3F15309C7D87E /* Classes */ = {
+		D34EF12D3FCB446B1E71D2A2F7EA423D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C3782D803477B40F119BBCE57D987D60 /* MRGLaunchImageViewController.h */,
-				7AF65CFB8FF6D86180613BCE25CB969C /* MRGLaunchImageViewController.m */,
+				88D2C5BE18DFEA6B94F2B74ADD366092 /* MRGLaunchImageViewController.h */,
+				AB7E9F133CB37EACB85A49BBA7E42160 /* MRGLaunchImageViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		F8D02C1F3C2D21996CDF07FF0B341D97 /* Targets Support Files */ = {
+		FE44F01892D039A890595F620ADF0330 /* MRGLaunchImageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B17D7A435A8D95E3C0B527D6F8BC6D6D /* Pods-MRGLaunchImageViewController_Example */,
-				7DC39C86CCC6CDD8FC1C8B907283C12A /* Pods-MRGLaunchImageViewController_Tests */,
+				8305B3EDC895BD4EFABCA7BD33C777BC /* Pod */,
+				A5EA1BF454EF143BADB3789A5E922A89 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = MRGLaunchImageViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DA9D482D5397EF89DD1188ABA7591284 /* Headers */ = {
+		74E9D18DC6A51C01FDD7EEC1C0E7118F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73376AB852D491893B677AAA73AC818 /* MRGLaunchImageViewController.h in Headers */,
+				F082DB0A79D490313BC27630F71AD7B8 /* MRGLaunchImageViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7218E3E7D260442B07FC7FC2FD42FD0F /* Pods-MRGLaunchImageViewController_Example */ = {
+		10CBC575CC5A67418D91DE3398F157EA /* Pods-MRGLaunchImageViewController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC518EEC74D1DC8FAAB9894E92FD2DBF /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Example" */;
+			buildConfigurationList = 1FC6907B234879BE74C933BFF43F9C23 /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Tests" */;
 			buildPhases = (
-				C2FF4754F0A79EE39926B034105CB786 /* Sources */,
-				B725E6AC57787CC0B2C2E4112F606EA9 /* Frameworks */,
+				CA59C8EE9528EB0EBCE7D5385C7DCDF1 /* Sources */,
+				107FAB6DEA30B1E65F65DEC487E4D800 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04971D507DDA091877D824E2B8B84926 /* PBXTargetDependency */,
-			);
-			name = "Pods-MRGLaunchImageViewController_Example";
-			productName = "Pods-MRGLaunchImageViewController_Example";
-			productReference = CB7F02E26983AB157FCBF5875AD1D019 /* libPods-MRGLaunchImageViewController_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BB374DA9284F2FD522CD5DB189953ABE /* Pods-MRGLaunchImageViewController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B009F1C90EB3D2E16482FAA0147DF1C /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Tests" */;
-			buildPhases = (
-				3121509F02C8042DD80AE588B1E7B602 /* Sources */,
-				7E556D317C242239391549212B2DCF88 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDAE68B1EA627410806033D3633DDC28 /* PBXTargetDependency */,
+				839A24C18D2B01FC759A0AAA8E3F14D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-MRGLaunchImageViewController_Tests";
 			productName = "Pods-MRGLaunchImageViewController_Tests";
-			productReference = D2F2C114BB0C5FD7313EE80D1807E5B1 /* libPods-MRGLaunchImageViewController_Tests.a */;
+			productReference = 1F6CD88021F381FD21BE9D295DBD96EB /* libPods-MRGLaunchImageViewController_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FDFF12405C6EC99B46230F2063D6F6E6 /* MRGLaunchImageViewController */ = {
+		3379F1B050B59C79E1BA11D02347E62D /* MRGLaunchImageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10B066B9299B1DB44DF87F0BC8E4E22E /* Build configuration list for PBXNativeTarget "MRGLaunchImageViewController" */;
+			buildConfigurationList = 00489C6ED05BC2E4DB03E499A404C112 /* Build configuration list for PBXNativeTarget "MRGLaunchImageViewController" */;
 			buildPhases = (
-				90546E27BDFFC359BCEE81FA82A8E5B3 /* Sources */,
-				52085D7BED300E210473BF9F1F9FB39E /* Frameworks */,
-				DA9D482D5397EF89DD1188ABA7591284 /* Headers */,
+				C29461E0886EFDCE09AEDD76FA6DCC9B /* Sources */,
+				FFCFA0418C4E46EA8AD3A156B04FD096 /* Frameworks */,
+				74E9D18DC6A51C01FDD7EEC1C0E7118F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -271,7 +256,24 @@
 			);
 			name = MRGLaunchImageViewController;
 			productName = MRGLaunchImageViewController;
-			productReference = EF623B20E5F3341A4DECC09E901BEC4B /* libMRGLaunchImageViewController.a */;
+			productReference = 022C2DB36BBFA9D6EF46127E399E23E5 /* libMRGLaunchImageViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6807FC097E02292F6E935445BB29738C /* Pods-MRGLaunchImageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E1A7D60C94BD2980598649182CD51D /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Example" */;
+			buildPhases = (
+				7A80C0406DDF177FF1ABEF9551C0665D /* Sources */,
+				B9095244C947DEE190AEB9C31A39FA39 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852E5317BBE709FD5870A3D6A12F52CE /* PBXTargetDependency */,
+			);
+			name = "Pods-MRGLaunchImageViewController_Example";
+			productName = "Pods-MRGLaunchImageViewController_Example";
+			productReference = 3C5207A19122112D1ABB0E94D6E5F4C0 /* libPods-MRGLaunchImageViewController_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -291,112 +293,148 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 7AB55B54CB84B2C932ECD0352728F446 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDFF12405C6EC99B46230F2063D6F6E6 /* MRGLaunchImageViewController */,
-				7218E3E7D260442B07FC7FC2FD42FD0F /* Pods-MRGLaunchImageViewController_Example */,
-				BB374DA9284F2FD522CD5DB189953ABE /* Pods-MRGLaunchImageViewController_Tests */,
+				3379F1B050B59C79E1BA11D02347E62D /* MRGLaunchImageViewController */,
+				6807FC097E02292F6E935445BB29738C /* Pods-MRGLaunchImageViewController_Example */,
+				10CBC575CC5A67418D91DE3398F157EA /* Pods-MRGLaunchImageViewController_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3121509F02C8042DD80AE588B1E7B602 /* Sources */ = {
+		7A80C0406DDF177FF1ABEF9551C0665D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15EC11E8B9DFEEF456727404901EA85 /* Pods-MRGLaunchImageViewController_Tests-dummy.m in Sources */,
+				390D42FB37FD01E60EAFABCF4342DA6F /* Pods-MRGLaunchImageViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90546E27BDFFC359BCEE81FA82A8E5B3 /* Sources */ = {
+		C29461E0886EFDCE09AEDD76FA6DCC9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C603113A8220F2A69E01E09213DDE91A /* MRGLaunchImageViewController-dummy.m in Sources */,
-				6FFF06C169997E1C3CC15329C17133EB /* MRGLaunchImageViewController.m in Sources */,
+				EC3FBE7F5A9060F4CCE196943C5BB320 /* MRGLaunchImageViewController-dummy.m in Sources */,
+				AA97CBB56D8D47194F9C0C3D7BFB713E /* MRGLaunchImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2FF4754F0A79EE39926B034105CB786 /* Sources */ = {
+		CA59C8EE9528EB0EBCE7D5385C7DCDF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADD0A0A2141A8F4EDC496F790153A7C /* Pods-MRGLaunchImageViewController_Example-dummy.m in Sources */,
+				4C616A85D44EF840FE609B8BEEDABBA4 /* Pods-MRGLaunchImageViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04971D507DDA091877D824E2B8B84926 /* PBXTargetDependency */ = {
+		839A24C18D2B01FC759A0AAA8E3F14D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRGLaunchImageViewController;
-			target = FDFF12405C6EC99B46230F2063D6F6E6 /* MRGLaunchImageViewController */;
-			targetProxy = 762DE3BD7FD783913090E6370D340EB0 /* PBXContainerItemProxy */;
+			target = 3379F1B050B59C79E1BA11D02347E62D /* MRGLaunchImageViewController */;
+			targetProxy = 588A83389E7681DD016F121A7C3395A2 /* PBXContainerItemProxy */;
 		};
-		DDAE68B1EA627410806033D3633DDC28 /* PBXTargetDependency */ = {
+		852E5317BBE709FD5870A3D6A12F52CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRGLaunchImageViewController;
-			target = FDFF12405C6EC99B46230F2063D6F6E6 /* MRGLaunchImageViewController */;
-			targetProxy = A12A3BC396588853A920D6E7BB3E6106 /* PBXContainerItemProxy */;
+			target = 3379F1B050B59C79E1BA11D02347E62D /* MRGLaunchImageViewController */;
+			targetProxy = 351A0DFD7BD52EA38CBA31D41CD7FB0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		2C37DB091271C4ECF5FC7E49E0955826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0B1CC80F48429F603C116B208F73293C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF3C8FC67EEEFD526348FB191011E374 /* MRGLaunchImageViewController-Private.xcconfig */;
+			baseConfigurationReference = 797AD14C5CD85543CD66293320C52E63 /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MRGLaunchImageViewController/MRGLaunchImageViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		61E17C936EC4ABE392009B9ABDCC8B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C991DF4C670FB20B0EFB1CA616450A29 /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66DE76FB5F1051CC422FE9CFB8E42B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75260C7122E732901BBC74F6F10E981 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F7E2D75007BB5E678D7B4ED02199657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE8BB3AB4507E760590D4DB5960E4EF /* MRGLaunchImageViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRGLaunchImageViewController/MRGLaunchImageViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A856DA321B1C7B3BB021CDEDFCB53A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7ED9631A6ADA285410F3ED2B91C636 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,101 +466,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2CEE4F91E759FDDF1435787A9838079A /* Debug */ = {
+		E2EA407A975DFC4B73114B81A3DE3703 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A014DAFBCACB73DE3BCC904BE00E8B7C /* Pods-MRGLaunchImageViewController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3F1AE87C93F0121BF816CB716EE884AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54113A1F5DF4B2E3655EE42ABB4744EB /* Pods-MRGLaunchImageViewController_Example.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8FEC4B1B6F0596CEF3AB63330E4E075E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14BCB7F80946412F638505D0D8473146 /* Pods-MRGLaunchImageViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AD5DC34A2E9C8CE1916F205A140521EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30717FFCC01A639DE03AE7E75D22BD5 /* Pods-MRGLaunchImageViewController_Example.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D09BF64887F9AF89181C83F3BC2AF6B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF3C8FC67EEEFD526348FB191011E374 /* MRGLaunchImageViewController-Private.xcconfig */;
+			baseConfigurationReference = 2DE8BB3AB4507E760590D4DB5960E4EF /* MRGLaunchImageViewController.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MRGLaunchImageViewController/MRGLaunchImageViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10B066B9299B1DB44DF87F0BC8E4E22E /* Build configuration list for PBXNativeTarget "MRGLaunchImageViewController" */ = {
+		00489C6ED05BC2E4DB03E499A404C112 /* Build configuration list for PBXNativeTarget "MRGLaunchImageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B1CC80F48429F603C116B208F73293C /* Debug */,
-				D09BF64887F9AF89181C83F3BC2AF6B6 /* Release */,
+				7F7E2D75007BB5E678D7B4ED02199657 /* Debug */,
+				E2EA407A975DFC4B73114B81A3DE3703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC6907B234879BE74C933BFF43F9C23 /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E17C936EC4ABE392009B9ABDCC8B57 /* Debug */,
+				A856DA321B1C7B3BB021CDEDFCB53A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -530,26 +549,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B009F1C90EB3D2E16482FAA0147DF1C /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Tests" */ = {
+		60E1A7D60C94BD2980598649182CD51D /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CEE4F91E759FDDF1435787A9838079A /* Debug */,
-				8FEC4B1B6F0596CEF3AB63330E4E075E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC518EEC74D1DC8FAAB9894E92FD2DBF /* Build configuration list for PBXNativeTarget "Pods-MRGLaunchImageViewController_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F1AE87C93F0121BF816CB716EE884AB /* Debug */,
-				AD5DC34A2E9C8CE1916F205A140521EE /* Release */,
+				2C37DB091271C4ECF5FC7E49E0955826 /* Debug */,
+				66DE76FB5F1051CC422FE9CFB8E42B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
