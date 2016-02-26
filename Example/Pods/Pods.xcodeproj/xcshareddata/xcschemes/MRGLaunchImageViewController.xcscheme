@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DDD70C7EABD66EA1E67DD449'
+               BlueprintIdentifier = '7227ED215CE35BAF4B4000D4'
                BlueprintName = 'MRGLaunchImageViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libMRGLaunchImageViewController.a'>
