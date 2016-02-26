@@ -3,5 +3,5 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-xcode_project: Example/MRGLaunchImageViewController.xcworkspace
+xcode_workspace: Example/MRGLaunchImageViewController.xcworkspace
 xcode_scheme: MRGLaunchImageViewController_Example
