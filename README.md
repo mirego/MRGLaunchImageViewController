@@ -19,7 +19,7 @@ pod 'MRGLaunchImageViewController', :git => 'https://github.com/mirego/MRGLaunch
 
 ## License
 
-MRGLaunchImageViewController is © 2014-2015 [Mirego](http://www.mirego.com) and may be freely
+MRGLaunchImageViewController is © 2014-2018 [Mirego](http://www.mirego.com) and may be freely
 distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
 See the [`LICENSE.md`](https://github.com/mirego/MRGLaunchImageViewController.iOS/blob/master/LICENSE.md) file.
 

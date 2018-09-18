@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2014-2015, Mirego
+// Copyright (c) 2014-2018, Mirego
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -106,18 +106,20 @@
 }
 
 #ifdef __IPHONE_9_0
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 #else
-- (NSUInteger)supportedInterfaceOrientations {
+- (NSUInteger)supportedInterfaceOrientations
 #endif
+{
     return mrg_supportedInterfaceOrientations;
 }
 
 #ifdef __IPHONE_9_0
-- (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations {
+- (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations
 #else
-- (void)setSupportedInterfaceOrientations:(NSUInteger)supportedInterfaceOrientations {
+- (void)setSupportedInterfaceOrientations:(NSUInteger)supportedInterfaceOrientations
 #endif
+{
     mrg_supportedInterfaceOrientations = supportedInterfaceOrientations;
 }
 
@@ -257,6 +259,5 @@
         return imagePath;
     }
 }
-
 
 @end
