@@ -192,17 +192,19 @@
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"UILaunchImageMinimumOSVersion <= %@ AND UILaunchImageOrientation = %@ AND (UILaunchImageSize = %@ OR UILaunchImageSize = %@)", systemVersion, orientationString, NSStringFromCGSize(mainWindow.bounds.size), NSStringFromCGSize([self portraitSizeForSize:mainWindow.bounds.size])];
         launchImages = [launchImages filteredArrayUsingPredicate:predicate];
         
-        NSString *imageName = [[launchImages lastObject] objectForKey:@"UILaunchImageName"];
-        NSString *baseExt = [imageName pathExtension];
-        if (baseExt.length == 0) {
-            baseExt = @"png";
-        }
-        
-        imageName = [imageName stringByDeletingPathExtension];
-        if (imageName.length > 0) {
-            NSString *imagePath = [[NSBundle mainBundle] pathForResource:[imageName stringByAppendingString:scale] ofType:baseExt];
-            if (imagePath != nil) {
-                return imagePath;
+        for (NSDictionary *launchImage in launchImages.reverseObjectEnumerator) {
+            NSString *imageName = [launchImage objectForKey:@"UILaunchImageName"];
+            NSString *baseExt = [imageName pathExtension];
+            if (baseExt.length == 0) {
+                baseExt = @"png";
+            }
+            
+            imageName = [imageName stringByDeletingPathExtension];
+            if (imageName.length > 0) {
+                NSString *imagePath = [[NSBundle mainBundle] pathForResource:[imageName stringByAppendingString:scale] ofType:baseExt];
+                if (imagePath != nil) {
+                    return imagePath;
+                }
             }
         }
     }
