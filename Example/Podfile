@@ -1,9 +1,8 @@
-platform :ios, '8.0'
-
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
 
 target 'MRGLaunchImageViewController_Example' do
-  pod "MRGLaunchImageViewController", :path => "../"
+  use_frameworks!
+  pod 'MRGLaunchImageViewController', :path => '../'
 
   target 'MRGLaunchImageViewController_Tests' do
     inherit! :search_paths

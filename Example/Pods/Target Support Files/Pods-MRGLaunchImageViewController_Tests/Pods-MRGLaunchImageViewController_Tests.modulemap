@@ -1,0 +1,6 @@
+framework module Pods_MRGLaunchImageViewController_Tests {
+  umbrella header "Pods-MRGLaunchImageViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

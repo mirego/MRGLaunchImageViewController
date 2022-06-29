@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2014-2018, Mirego
+// Copyright (c) 2014-2022, Mirego
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -29,9 +29,10 @@
 @import UIKit;
 #import "MRGAppDelegate.h"
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
+    NSString * appDelegateClassName;
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MRGAppDelegate class]));
+        appDelegateClassName = NSStringFromClass([MRGAppDelegate class]);
     }
+    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }

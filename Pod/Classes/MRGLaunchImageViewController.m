@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2014-2018, Mirego
+// Copyright (c) 2014-2022, Mirego
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -37,11 +37,7 @@
 
 @implementation MRGLaunchImageViewController {
     BOOL mrg_shouldAutorotate;
-#ifdef __IPHONE_9_0
     UIInterfaceOrientationMask mrg_supportedInterfaceOrientations;
-#else
-    NSUInteger mrg_supportedInterfaceOrientations;
-#endif
     BOOL mrg_prefersStatusBarHidden;
     UIStatusBarStyle mrg_preferredStatusBarStyle;
     UIStatusBarAnimation mrg_preferredStatusBarUpdateAnimation;
@@ -51,22 +47,22 @@
     self = [super init];
     if (self) {
         mrg_shouldAutorotate = YES;
-        mrg_supportedInterfaceOrientations = ([[UIDevice currentDevice] userInterfaceIdiom] != UIUserInterfaceIdiomPad) ? UIInterfaceOrientationMaskPortrait : UIInterfaceOrientationMaskAll;
-        mrg_prefersStatusBarHidden = [super prefersStatusBarHidden];
-        mrg_preferredStatusBarStyle = [super preferredStatusBarStyle];
-        mrg_preferredStatusBarUpdateAnimation = [super preferredStatusBarUpdateAnimation];
+        mrg_supportedInterfaceOrientations = (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPad) ? UIInterfaceOrientationMaskPortrait : UIInterfaceOrientationMaskAll;
+        mrg_prefersStatusBarHidden = super.prefersStatusBarHidden;
+        mrg_preferredStatusBarStyle = super.preferredStatusBarStyle;
+        mrg_preferredStatusBarUpdateAnimation = super.preferredStatusBarUpdateAnimation;
     }
     
     return self;
 }
 
 - (void)loadView {
-    NSString *launchStoryboardName = [[NSBundle mainBundle] infoDictionary][@"UILaunchStoryboardName"];
-    if ([launchStoryboardName length] > 0) {
+    NSString *launchStoryboardName = NSBundle.mainBundle.infoDictionary[@"UILaunchStoryboardName"];
+    if (launchStoryboardName.length > 0) {
         UIStoryboard *launchStoryboard = [UIStoryboard storyboardWithName:launchStoryboardName bundle:nil];
         self.launchStoryboardViewController = [launchStoryboard instantiateInitialViewController];
         if (self.launchStoryboardViewController) {
-            self.view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            self.view = [[UIView alloc] initWithFrame:UIScreen.mainScreen.bounds];
             self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
             
             [self.launchStoryboardViewController beginAppearanceTransition:YES animated:NO];
@@ -81,7 +77,7 @@
     }
     
     if (self.launchStoryboardViewController == nil) {
-        UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        UIImageView *launchImageView = [[UIImageView alloc] initWithFrame:UIScreen.mainScreen.bounds];
         launchImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         self.view = self.launchImageView = launchImageView;
     }
@@ -89,11 +85,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self updateLaunchImageView];
-}
-
-- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    [super willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+    
     [self updateLaunchImageView];
 }
 
@@ -105,21 +97,11 @@
     mrg_shouldAutorotate = shouldAutorotate;
 }
 
-#ifdef __IPHONE_9_0
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-#else
-- (NSUInteger)supportedInterfaceOrientations
-#endif
-{
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return mrg_supportedInterfaceOrientations;
 }
 
-#ifdef __IPHONE_9_0
-- (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations
-#else
-- (void)setSupportedInterfaceOrientations:(NSUInteger)supportedInterfaceOrientations
-#endif
-{
+- (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations {
     mrg_supportedInterfaceOrientations = supportedInterfaceOrientations;
 }
 
@@ -149,7 +131,7 @@
 
 - (void)updateLaunchImageView {
     if (self.launchImageView) {
-        NSString *launchImagePath = [[self class] launchImagePath];
+        NSString *launchImagePath = self.class.launchImagePath;
         if ([self.launchImagePath isEqualToString:launchImagePath] == NO) {
             self.launchImagePath = launchImagePath;
             self.launchImageView.image = [UIImage imageWithContentsOfFile:self.launchImagePath];
@@ -158,9 +140,9 @@
 }
 
 + (NSString *)launchImagePathForName:(NSString *)name device:(NSString *)device type:(NSString *)type {
-    NSString *path = [[NSBundle mainBundle] pathForResource:[name stringByAppendingString:device] ofType:type];
+    NSString *path = [NSBundle.mainBundle pathForResource:[name stringByAppendingString:device] ofType:type];
     if (path == nil) {
-        path = [[NSBundle mainBundle] pathForResource:name ofType:type];
+        path = [NSBundle.mainBundle pathForResource:name ofType:type];
     }
     
     return path;
@@ -175,35 +157,35 @@
 }
 
 + (NSString *)launchImagePath {
-    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    BOOL isPad = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad;
+    UIInterfaceOrientation orientation = UIApplication.sharedApplication.statusBarOrientation;
+    BOOL isPad = UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad;
     BOOL isLandscape = UIInterfaceOrientationIsLandscape(orientation);
     NSString *orientationString = (!isPad || !isLandscape) ? @"Portrait" : @"Landscape";
-    NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
-    NSString *scale = [[UIScreen mainScreen] scale] > 1 ? [NSString stringWithFormat:@"@%.0fx", [[UIScreen mainScreen] scale]] : @"";
+    NSString *systemVersion = UIDevice.currentDevice.systemVersion;
+    NSString *scale = UIScreen.mainScreen.scale > 1 ? [NSString stringWithFormat:@"@%.0fx", UIScreen.mainScreen.scale] : @"";
     
     // Check the iOS 7 key
-    NSArray *launchImages = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    NSArray<NSDictionary<NSString *, id> *> *launchImages = [NSBundle.mainBundle.infoDictionary valueForKey:@"UILaunchImages"];
     if (launchImages != nil) {
-        UIWindow *mainWindow = [[UIApplication sharedApplication] keyWindow];
+        UIWindow *mainWindow = UIApplication.sharedApplication.keyWindow;
         if (mainWindow == nil) {
-            mainWindow = [[[UIApplication sharedApplication] windows] firstObject];
+            mainWindow = UIApplication.sharedApplication.windows.firstObject;
         }
         
         // Filter down the array to just the matching elements
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"UILaunchImageMinimumOSVersion <= %@ AND UILaunchImageOrientation = %@ AND (UILaunchImageSize = %@ OR UILaunchImageSize = %@)", systemVersion, orientationString, NSStringFromCGSize(mainWindow.bounds.size), NSStringFromCGSize([self portraitSizeForSize:mainWindow.bounds.size])];
         launchImages = [launchImages filteredArrayUsingPredicate:predicate];
         
-        for (NSDictionary *launchImage in launchImages.reverseObjectEnumerator) {
-            NSString *imageName = [launchImage objectForKey:@"UILaunchImageName"];
-            NSString *baseExt = [imageName pathExtension];
+        for (NSDictionary<NSString *, id> *launchImage in launchImages.reverseObjectEnumerator) {
+            NSString *imageName = launchImage[@"UILaunchImageName"];
+            NSString *baseExt = imageName.pathExtension;
             if (baseExt.length == 0) {
                 baseExt = @"png";
             }
             
-            imageName = [imageName stringByDeletingPathExtension];
+            imageName = imageName.stringByDeletingPathExtension;
             if (imageName.length > 0) {
-                NSString *imagePath = [[NSBundle mainBundle] pathForResource:[imageName stringByAppendingString:scale] ofType:baseExt];
+                NSString *imagePath = [NSBundle.mainBundle pathForResource:[imageName stringByAppendingString:scale] ofType:baseExt];
                 if (imagePath != nil) {
                     return imagePath;
                 }
@@ -212,19 +194,19 @@
     }
     
     // Check the pre iOS 7 key
-    NSString *baseName = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImageFile"];
-    NSString *baseExt = [baseName pathExtension];
+    NSString *baseName = [NSBundle.mainBundle.infoDictionary valueForKey:@"UILaunchImageFile"];
+    NSString *baseExt = baseName.pathExtension;
     if (baseExt.length == 0) {
         baseExt = @"png";
     }
     
-    baseName = [baseName stringByDeletingPathExtension];
+    baseName = baseName.stringByDeletingPathExtension;
     if (baseName.length == 0) {
         baseName = @"Default";
     }
     
     if (!isPad) {
-        NSString *imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@-%.0fh%@", baseName, [UIScreen mainScreen].bounds.size.height, scale] device:@"~iphone" type:baseExt];
+        NSString *imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@-%.0fh%@", baseName, UIScreen.mainScreen.bounds.size.height, scale] device:@"~iphone" type:baseExt];
         
         if (imagePath == nil) {
             imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@%@", baseName, scale] device:@"~iphone" type:baseExt];
@@ -235,9 +217,7 @@
     } else {
         NSString *imagePath = nil;
         switch (orientation) {
-#ifdef __IPHONE_8_0
             case UIInterfaceOrientationUnknown:
-#endif
             case UIInterfaceOrientationPortrait:
                 imagePath = [self launchImagePathForName:[NSString stringWithFormat:@"%@-Portrait%@", baseName, scale] device:@"~ipad" type:baseExt];
                 break;

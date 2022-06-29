@@ -1,0 +1,6 @@
+framework module MRGLaunchImageViewController {
+  umbrella header "MRGLaunchImageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

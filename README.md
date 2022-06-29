@@ -1,10 +1,5 @@
 # MRGLaunchImageViewController
 
-[![CI Status](http://img.shields.io/travis/mirego/MRGLaunchImageViewController.svg?style=flat)](https://travis-ci.org/mirego/MRGLaunchImageViewController)
-[![Version](https://img.shields.io/cocoapods/v/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
-[![License](https://img.shields.io/cocoapods/l/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
-[![Platform](https://img.shields.io/cocoapods/p/MRGLaunchImageViewController.svg?style=flat)](http://cocoadocs.org/docsets/MRGLaunchImageViewController)
-
 A view controller that displays the launch image to ease your transitions at app launch.
 
 ## Adding to your project
@@ -19,17 +14,10 @@ pod 'MRGLaunchImageViewController', :git => 'https://github.com/mirego/MRGLaunch
 
 ## License
 
-MRGLaunchImageViewController is © 2014-2018 [Mirego](http://www.mirego.com) and may be freely
-distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
-See the [`LICENSE.md`](https://github.com/mirego/MRGLaunchImageViewController.iOS/blob/master/LICENSE.md) file.
+MRGLaunchImageViewController is © 2014-2022 [Mirego](https://www.mirego.com) and may be freely distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause). See the [`LICENSE`](LICENSE) file.
 
 ## About Mirego
 
-Mirego is a team of passionate people who believe that work is a place where you can innovate and have fun.
-We proudly built mobile applications for
-[iPhone](http://mirego.com/en/iphone-app-development/ "iPhone application development"),
-[iPad](http://mirego.com/en/ipad-app-development/ "iPad application development"),
-[Android](http://mirego.com/en/android-app-development/ "Android application development"),
-[Blackberry](http://mirego.com/en/blackberry-app-development/ "Blackberry application development"),
-[Windows Phone](http://mirego.com/en/windows-phone-app-development/ "Windows Phone application development") and
-[Windows 8](http://mirego.com/en/windows-8-app-development/ "Windows 8 application development").
+[Mirego](https://www.mirego.com) is a team of passionate people who believe that work is a place where you can innovate and have fun. We’re a team of [talented people](https://life.mirego.com) who imagine and build beautiful Web and mobile applications. We come together to share ideas and [change the world](http://www.mirego.org).
+
+We also [love open-source software](https://open.mirego.com) and we try to give back to the community as much as we can.

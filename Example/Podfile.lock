@@ -1,5 +1,5 @@
 PODS:
-  - MRGLaunchImageViewController (0.1.4)
+  - MRGLaunchImageViewController (1.1)
 
 DEPENDENCIES:
   - MRGLaunchImageViewController (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRGLaunchImageViewController: 5e546e3951a5129ac6912fb909ee63ef4dc92945
+  MRGLaunchImageViewController: 7a4d341bdde4cb7640ccaef31be58052e981e72b
 
-PODFILE CHECKSUM: 329cff9e1f9650e473a54a13905f97be4d9d2744
+PODFILE CHECKSUM: 41a672aad945fbc8601f0bcdec9f9bd2627a4b7c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.11.3

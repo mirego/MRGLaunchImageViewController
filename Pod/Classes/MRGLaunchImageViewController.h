@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2014-2018, Mirego
+// Copyright (c) 2014-2022, Mirego
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -31,11 +31,7 @@
 @interface MRGLaunchImageViewController : UIViewController
 
 - (void)setShouldAutorotate:(BOOL)shouldAutorotate;
-#ifdef __IPHONE_9_0
 - (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations;
-#else
-- (void)setSupportedInterfaceOrientations:(NSUInteger)supportedInterfaceOrientations;
-#endif
 - (void)setPrefersStatusBarHidden:(BOOL)prefersStatusBarHidden;
 - (void)setPreferredStatusBarStyle:(UIStatusBarStyle)preferredStatusBarStyle;
 - (void)setPreferredStatusBarUpdateAnimation:(UIStatusBarAnimation)preferredStatusBarUpdateAnimation;
